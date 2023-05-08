@@ -1,0 +1,101 @@
+html, body{
+    font-family:'Kumbh Sans', Courier, monospace;    
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(27,161,173);
+    background-image: url(Anexos/bg-pattern-top.svg), url(Anexos/bg-pattern-bottom.svg); 
+    background-position: -350px -550px, 600px 350px;  
+    background-size: 1000px 1000px, 1000px 1000px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+body{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card{
+    width: 350px;
+    background-color: white;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.Superior{
+    background-color: white;
+    width: 350px;
+    height: 175px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(Anexos/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-position: top -10px left;
+}
+
+.Info{
+    background-color: white;
+    width: 350px;
+    height: 175px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+}
+
+.Frame{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Picture{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.Numbers_Description{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    padding: 30px 0px 30px 0px;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.Name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Age{
+    font-size: 18px;
+}
+
+.Age, .City{
+    color: hsl(0, 0%, 59%);
+}
+
+.City{
+    font-size: 14px;
+    padding: 10px;
+}
+
+#Numbers{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#Description{
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+}
