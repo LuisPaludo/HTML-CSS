@@ -1,0 +1,302 @@
+html{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body{
+    background-color: #22212c;
+    min-height: 100vh;
+    display: flex;
+}
+
+img{
+    width: 128px;
+    height: 128px;
+}
+
+.Dashboard{
+    width: 40%;
+}
+
+.Main_Content{
+    width: 60%;
+    margin: 0px 40px 0 0;
+}
+
+.Profile{
+    min-width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 40px 30px 40px;
+    background-color: #302f3d;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.Profile .Picture img{
+    border-radius: 50%;
+    margin: 40px 0 20px 0;
+    border: 3px solid #00FF00;
+}
+
+.Profile .Name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #837e9f;
+}
+
+.Profile .Position{
+    font-size: 17px;
+    font-weight: 300;
+    color: #837e9f;
+    margin: 10px 0 30px 0;
+}
+
+.Info{
+    border-radius: 15px;
+    background-color: #302f3d;
+    min-width: 150px;
+    box-sizing: border-box;
+    margin: 0px 40px 40px 40px;
+    padding: 35px 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Info .Icon img{
+    width: 24px;
+    height: 24px;
+    margin: 4px 15px 0 0;
+}
+
+.Info .Name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #837e9f;
+}
+
+.Info .Media{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.Info{
+    border-radius: 15px;
+    background-color: #302f3d;
+    min-width: 150px;
+    box-sizing: border-box;
+    margin: 0px 40px 40px 40px;
+    padding: 35px 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Info .Title{
+    color:#837e9f;
+    font-size: 26px;
+    margin: 0px 10px 15px 15px;
+    font-weight: 700;
+}
+
+.Info .Tech{
+    margin: 10px;
+    border-radius: 15px;
+    padding: 7px 5px 5px 5px;
+    background-color: #cb92b1;
+    width: 86px;
+    height: 24px;    
+}
+
+.Info .Techs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.Info .Content{
+    width: 100%;
+    color: #837e9f;
+}
+
+.Content .Company{
+    font-weight: 700;
+}
+
+.Content .Time{
+    font-weight: 400;
+}
+
+.Content .Position{
+    font-weight: 500;
+}
+
+.Content li{
+    margin: 20px 20px;
+    text-align: left;
+}
+
+.Projects, .Recent{
+    border-radius: 15px;
+    background-color: #302f3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 40px 0;
+    box-sizing: border-box;
+}
+
+.Projects .Title, .Recent .Title{
+    font-weight: 700;
+    font-size: 26px;
+    color: #837e9f;
+}
+
+.Projects .See{
+    font-weight: 400;
+    font-size: 16px;
+    color: #837e9f;
+}
+
+.Codes{
+    border-radius: 15px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Codes .Code{
+    border-radius: 15px;
+    width: 50%;
+    margin: 0px 30px 0px 0px;
+    background-color: #302f3d;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.Codes .Code:nth-child(2){
+    margin: 0;
+}
+
+.Codes .Icon img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 15px;
+}
+
+.Code .Head{
+    display: flex;
+    color: #837e9f;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.Code .Main{
+    margin: 20px 0 0 0;
+    color:#837e9f;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.Code .Footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+    align-items: center;
+    color: #837e9f;
+    font-size: 14px;
+}
+
+.Code .Social{
+    display: flex;
+    align-items: center;
+}
+
+.dot{
+    background-color: #e7de79;
+    border: 2px solid #837e9f;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.Bottom{
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #302f3d;
+    display: flex;
+    padding: 30px;
+}
+
+.Bottom .Photo img{
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+
+.Bottom .Content {
+    padding: 0px 15px;
+    
+}
+
+.Bottom .Content .Title{
+    font-weight: 700;
+    font-size: 18px;
+    color:#837e9f;
+    padding: 0 0 5px 0;
+}
+
+.Bottom .Content .Time{
+    font-weight: 400;
+    font-size: 14px;
+    color:#837e9f;
+    padding: 0 0 30px 0;
+}
+
+.Bottom .Content .Desc{
+    font-weight: 400;
+    font-size: 16px;
+    color:#837e9f;
+    padding: 0 0 5px 0;
+}
+
+.Bottom .Content .Hashtags{
+    word-spacing: 3em;
+    font-weight: 400;
+    font-size: 14px;
+    color:#837e9f;
+}
+
+@media (max-width:1000px){
+    .Codes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* flex-grow: 2; */
+        color: red;
+        align-items: center;
+        /* width: 100%; */
+        margin-right: 0px;
+    }
+    .Codes .Code{
+        margin-right: 0px;
+        /* width: 100%; */
+        width: auto;
+    }
+
+    .Codes .Code:first-child{
+        margin-right: 0px;
+        margin-bottom: 40px;
+        /* width: 100%; */
+        width: auto;
+    }
+}
