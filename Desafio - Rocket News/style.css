@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+html{
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: auto;
+}
+
+.Background{
+    width: 50%;
+    height: 100%;
+    background-image: url(Anexos/read_news.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    z-index: 0;
+}
+
+.Main{
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header .Logo img{
+    padding: 30px;
+    width: 380px;
+    height: 95px;
+}
+
+.Content{
+    margin: 40px;
+}
+
+.Content *{
+    margin: 5px;
+}
+
+.Content .Top{
+    color: #08C05e;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.Content .Middle{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.Content .Bottom{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+main{
+    margin: 40px;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 115%;
+}
+
+form button{
+    width: 48px;
+    height: 48px;
+    background-color: #8257e5;
+    border: none;
+}
+
+.Input{
+    display: flex;
+    align-items: center;
+    box-shadow: -7px 0px 0px 0px #04D361;
+}
+
+main label{
+    color: #a8a8a8;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.label{
+    margin: 0 0 20px 0;
+}
+
+input{
+    box-sizing: border-box;
+    width: 90%;
+    height: 48px;
+    border-radius: 0;    
+    outline: none;
+    border: none;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+footer .Text{
+    margin: 20px 10px 20px 40px;
+    color: #8257e5;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+footer img{
+    width: 24px;
+    height: 24px;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    border: none
+}
+
+@media(max-width:850px){
+    .Background{
+        width: 0%;
+    }
+    .Main{
+        width: 100%;
+    }
+
+    form{
+        width: 80%;
+    }
+}
